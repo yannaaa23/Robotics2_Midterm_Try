@@ -42,12 +42,11 @@
 <hr> 
 <br>
 
-<a id="I. Abstract"></a>
 ## I. Abstract
     (description)
 <hr> 
 <br>
-[Go to Table of Contents](#table-of-contents)
+
 
 ## II. Introduction
     (description)
@@ -64,7 +63,7 @@
     (description)
 <br>
 <h1 align="center"> Computation: </h1>  
-<p align="center">
+<p align="center" style="font-family: Arial, sans-serif; font-size: 20px">
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
 <hr> 
