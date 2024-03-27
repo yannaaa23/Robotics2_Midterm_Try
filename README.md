@@ -3,17 +3,13 @@
   <strong>Department of Electronics Engineering</strong><br><br><br>
   <strong>MECHATRONICS ENGINEERING - 3202</strong><br>
   Second Semester, A.Y. 2023-2024<br><br><br>
-  
   <strong>Midterm project in Robotics 2</strong><br><br><br>
-
   Presented to<br>
   <strong>Engr. Mikko De Torres</strong><br>
   Instructor<br><br><br>
-
   In Partial Fulfillment<br>
   of the Requirements for the course<br>
   MExE 409 - Robotics 2<br><br><br>
-
   By:<br>
   Alojado, Stephen Gabriel S.<br>
   Apostol, Jan Benedict D.<br>
