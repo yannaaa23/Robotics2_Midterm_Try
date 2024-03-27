@@ -25,3 +25,18 @@
 <p align="center">
   <img src="https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/main/First%20Page/Footer.png?raw=true" alt="Footer Image">
 </p>
+
+# SPHERICAL MANIPULATOR 
+
+## Table of Contents
+  - [I. Abstract](#-i.-abstract-)
+  - [II. Introduction](#-ii.-introduction-)
+  - [III. Degrees of Freedom](#-iii.-degrees-of-freedom-)
+  - [IV. Kinematic Diagram and D-H Frame](#-iv.-kinematic-diagram-and-d-h-frame-)
+  - [V. D-H Parametric Table](#-v.-d-h-parametric-table-)
+  - [VI. Homogeneous Transformation Matrix](#-vi.-homogeneous-transformation-matrix-)
+  - [VII. Inverse Kinematics](#-vii.-inverse-kinematics-)
+  - [VIII. Forward and Inverse Kinematics (GUI calculator)](#-viii.-forward-and-inverse-kinematics-(gui-calculator)-)
+  - [IX. References](#-ix.-references-)
+
+
