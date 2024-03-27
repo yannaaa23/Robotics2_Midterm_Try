@@ -1,3 +1,5 @@
+![Header Image](https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/main/First%20Page/Header.png?raw=true)
+
 <p align="center" style="font-family: Arial, sans-serif; font-size: 20px">
   <strong>College of Engineering</strong><br>
   <strong>Department of Electronics Engineering</strong><br><br><br>
