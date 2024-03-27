@@ -39,9 +39,79 @@
   - [VII. Inverse Kinematics](#-vii.-inverse-kinematics-)
   - [VIII. Forward and Inverse Kinematics (GUI calculator)](#-viii.-forward-and-inverse-kinematics-(gui-calculator)-)
   - [IX. References](#-ix.-references-)
+<hr> 
+<br>
+
+<h1 ## I. Abstract </h1>
+<hr>
+    (description)
+<hr> 
+<br>
+
+## II. Introduction
+    (description)
+<hr> 
 <br>
 
 
+## III. Degrees of Freedom
+    (description)
+<hr> 
+<br>
+
+## IV. Kinematic Diagram and D-H Frame
+    (description)
+    <h1 align="center"> Computation: </h1> 
+    <p align="center">
+      <img src=(paste-link-here) alt=(Name) width="700"/>
+</p>
+<hr> 
+<br>
 
 
+## V. D-H Parametric Table
+    (description)
+    <h1 align="center"> Computation: </h1> 
+    <p align="center">
+      <img src=(paste-link-here) alt=(Name) width="700"/>
+</p>
+<hr> 
+<br>
 
+
+## VI. Homogeneous Transformation Matrix
+    (description)
+    <h1 align="center"> Computation: </h1> 
+    <p align="center">
+      <img src=(paste-link-here) alt=(Name) width="700"/>
+</p>
+<hr> 
+<br>
+
+
+## VII. Inverse Kinematics
+    (description)
+    <h1 align="center"> Computation: </h1> 
+    <p align="center">
+      <img src=(paste-link-here) alt=(Name) width="700"/>
+</p>
+<hr> 
+<br>
+
+
+## VIII. Forward and Inverse Kinematics (GUI calculator)
+    (description)
+    <h1 align="center"> Computation: </h1> 
+    <p align="center">
+      <img src=(paste-link-here) alt=(Name) width="700"/>
+</p>
+<hr> 
+<br>
+
+
+### IX. References
+-
+-
+-
+-
+-
