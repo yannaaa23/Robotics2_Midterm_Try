@@ -42,8 +42,7 @@
 <hr> 
 <br>
 
-<h1 ## I. Abstract </h1>
-<hr>
+## I. Abstract
     (description)
 <hr> 
 <br>
@@ -61,9 +60,10 @@
 
 ## IV. Kinematic Diagram and D-H Frame
     (description)
-    <h1 align="center"> Computation: </h1> 
-    <p align="center">
-      <img src=(paste-link-here) alt=(Name) width="700"/>
+<br>
+<h1 align="center"> Computation: </h1>  
+<p align="center">
+  <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
 <hr> 
 <br>
@@ -71,9 +71,10 @@
 
 ## V. D-H Parametric Table
     (description)
-    <h1 align="center"> Computation: </h1> 
-    <p align="center">
-      <img src=(paste-link-here) alt=(Name) width="700"/>
+<br>
+<h1 align="center"> Computation: </h1>  
+<p align="center">
+  <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
 <hr> 
 <br>
@@ -81,9 +82,10 @@
 
 ## VI. Homogeneous Transformation Matrix
     (description)
-    <h1 align="center"> Computation: </h1> 
-    <p align="center">
-      <img src=(paste-link-here) alt=(Name) width="700"/>
+<br>
+<h1 align="center"> Computation: </h1>  
+<p align="center">
+  <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
 <hr> 
 <br>
@@ -91,9 +93,10 @@
 
 ## VII. Inverse Kinematics
     (description)
-    <h1 align="center"> Computation: </h1> 
-    <p align="center">
-      <img src=(paste-link-here) alt=(Name) width="700"/>
+<br>
+<h1 align="center"> Computation: </h1>  
+<p align="center">
+  <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
 <hr> 
 <br>
@@ -101,9 +104,10 @@
 
 ## VIII. Forward and Inverse Kinematics (GUI calculator)
     (description)
-    <h1 align="center"> Computation: </h1> 
-    <p align="center">
-      <img src=(paste-link-here) alt=(Name) width="700"/>
+<br>
+<h1 align="center"> Computation: </h1>  
+<p align="center">
+  <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
 <hr> 
 <br>
