@@ -30,7 +30,7 @@
 <hr> 
 
 ## Table of Contents
-  - [I. Abstract](#-i.-abstract-)
+  - [I. Abstract](#-i-.-abstract-)
   - [II. Introduction](#-ii.-introduction-)
   - [III. Degrees of Freedom](#-iii.-degrees-of-freedom-)
   - [IV. Kinematic Diagram and D-H Frame](#-iv.-kinematic-diagram-and-d-h-frame-)
@@ -62,7 +62,7 @@
 ## IV. Kinematic Diagram and D-H Frame
     (description)
 <br>
-<span style="font-family: Arial, sans-serif; font-size: 50px;">Computation:</span>
+<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
 <p align="center" 
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
@@ -73,7 +73,7 @@
 ## V. D-H Parametric Table
     (description)
 <br>
-<h1 align="center"> Computation: </h1>  
+<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
 <p align="center">
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
@@ -84,7 +84,7 @@
 ## VI. Homogeneous Transformation Matrix
     (description)
 <br>
-<h1 align="center"> Computation: </h1>  
+<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
 <p align="center">
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
@@ -95,7 +95,7 @@
 ## VII. Inverse Kinematics
     (description)
 <br>
-<h1 align="center"> Computation: </h1>  
+<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
 <p align="center">
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
@@ -106,7 +106,7 @@
 ## VIII. Forward and Inverse Kinematics (GUI calculator)
     (description)
 <br>
-<h1 align="center"> Computation: </h1>  
+<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
 <p align="center">
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
