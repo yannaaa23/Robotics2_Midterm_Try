@@ -30,7 +30,7 @@
 <hr> 
 
 ## Table of Contents
-  - [I. Abstract](#-i-.-abstract-)
+  - [I. Abstract](#i-.-abstract-)
   - [II. Introduction](#-ii.-introduction-)
   - [III. Degrees of Freedom](#-iii.-degrees-of-freedom-)
   - [IV. Kinematic Diagram and D-H Frame](#-iv.-kinematic-diagram-and-d-h-frame-)
