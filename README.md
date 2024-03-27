@@ -7,7 +7,7 @@
   <strong>Department of Electronics Engineering</strong><br><br><br>
   <strong>MECHATRONICS ENGINEERING - 3202</strong><br>
   Second Semester, A.Y. 2023-2024<br><br><br>
-  <strong>Midterm project in Robotics 2</strong><br><br><br>
+  <strong>Midterm Project in Robotics 2</strong><br><br><br>
   Presented to<br>
   <strong>Engr. Mikko De Torres</strong><br>
   Instructor<br><br><br>
@@ -26,7 +26,8 @@
   <img src="https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/main/First%20Page/Footer.png?raw=true" alt="Footer Image">
 </p>
 
-# SPHERICAL MANIPULATOR 
+<h1 align="center"> SPHERICAL MANIPULATOR </h1>
+<hr> 
 
 ## Table of Contents
   - [I. Abstract](#-i.-abstract-)
@@ -38,5 +39,9 @@
   - [VII. Inverse Kinematics](#-vii.-inverse-kinematics-)
   - [VIII. Forward and Inverse Kinematics (GUI calculator)](#-viii.-forward-and-inverse-kinematics-(gui-calculator)-)
   - [IX. References](#-ix.-references-)
+<br>
+
+
+
 
 
