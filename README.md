@@ -22,3 +22,6 @@
   Umali, Ariane Mae D.<br>
   </p>
 
+<p align="center">
+  <img src="https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/main/First%20Page/Footer.png?raw=true" alt="Footer Image">
+</p>
