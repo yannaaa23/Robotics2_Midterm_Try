@@ -62,8 +62,7 @@
 ## IV. Kinematic Diagram and D-H Frame
     (description)
 <br>
-<h1 align="center"> Computation: </h1>  
-<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
+<span style="font-family: Arial, sans-serif; font-size: 10px;">Computation:</span>
 <p align="center" 
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
