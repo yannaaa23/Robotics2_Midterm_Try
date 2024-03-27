@@ -63,7 +63,7 @@
     (description)
 <br>
 <h1 align="center"> Computation: </h1>  
-<p align="center" style="font-family: Arial, sans-serif; font-size: 20px">
+<p align="center" style="font-family: Arial, sans-serif; font-size: 5px">
   <img src=(paste-link-here) alt=(Name) width="700"/>
 </p>
 <hr> 
