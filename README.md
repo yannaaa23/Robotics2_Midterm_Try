@@ -32,7 +32,7 @@
 <br>
 
 <span style="font-family: Arial, sans-serif; font-size: 18px;">
-    Spherical Manipulator is a stationary manipulator featuring two rotational joints, one prismatic joint, an arm attached to a robotic base, and a twisting joint. The spherical manipulator, also known as the polar manipulator, has three mutually perpendicular axes and is well known in the history of robotics. This is because the first industrial robot, Unimate, was a spherical robot developed in the 1950s. The zero z0 z1 and z2, this configuration facilitates the movement in spherical coordinates, while the spherical manipulator once held its ground, it has relinquished practice practicality in the workplace yielding to the versatility of six axes articulated manipulators.</span>
+    <P> Spherical Manipulator is a stationary manipulator featuring two revolute joints and one prismatic joint, an arm attached to a robotic base, and a twisting joint. The spherical manipulator, also known as the polar manipulator, has three mutually perpendicular axes and is well known in the history of robotics. This is because the first industrial robot, Unimate, was a spherical robot developed in the 1950s. It is also a type of robotic manipulator that operates with a spherical working envelope. Unlike traditional robotic arms that typically move in a planar or linear fashion, spherical manipulators can move in any direction within a three-dimensional space. These robots often consist of multiple joints arranged in a spherical configuration, allowing for movement along multiple axes simultaneously. This configuration enables them to reach points in 3D space with greater flexibility compared to traditional robotic arms.  </P></span>
 <hr> 
 <br>
 
@@ -41,7 +41,7 @@
 ## III. Degrees of Freedom
 
 <span style="font-family: Arial, sans-serif; font-size: 18px;">
-    In robotics, degrees of freedom (DOF) refer to the number of independent parameters that define the configuration or motion of a robot. Essentially, it indicates how many different ways a robot can move within its environment.The more the degree of freedom, the more flexible and adaptable the robot. A robot with high DoF can make more complex movements and perform a variety of tasks. </span>
+    <P> In robotics, degrees of freedom (DOF) refer to the number of independent parameters that define the configuration or motion of a robot. Essentially, it indicates how many different ways a robot can move within its environment.The more the degree of freedom, the more flexible and adaptable the robot. A robot with high DoF can make more complex movements and perform a variety of tasks. </P></span>
   
 <p class="blank-line">&nbsp;</p>
 
