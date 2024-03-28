@@ -66,9 +66,9 @@
 
 #### Grubler's Criterion for Mobility
   - Formula for the Mobility of Spatial Manipulator
-    <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/a438ef6c69df99a686f3090b499bcc71dc2c8c2a/First%20Page/Formula%20of%20Spatial%20Manipulator.png alt=Formula of Spatial Manipulator style="height: 75px;">
+    $$M = 6n - \sum_{i=1}^m (6-Ci)$$
   - Formula for the Mobility of Planar Manipulator
-    <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/a438ef6c69df99a686f3090b499bcc71dc2c8c2a/First%20Page/Formula%20of%20Planar%20Manipulator.png alt=Formula of Planar Manipulator style="height: 75px;">
+    $$M = 3n - \sum_{i=1}^m (3-Ci)$$
 
 <hr> 
 <br>
