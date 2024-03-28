@@ -49,8 +49,7 @@
 
 ## III. Degrees of Freedom
 
-<span style="font-family: Arial, sans-serif; font-size: 18px;">
-    <P> In robotics, degrees of freedom (DOF) refer to the number of independent parameters that define the configuration or motion of a robot. Essentially, it indicates how many different ways a robot can move within its environment.The more the degree of freedom, the more flexible and adaptable the robot. A robot with high DoF can make more complex movements and perform a variety of tasks. </P></span>
+  <p align="justify"> In robotics, <b><i>Degrees of Freedom</i></b> (DOF) refer to the number of independent parameters that define the configuration or motion of a robot. Essentially, it indicates how many different ways a robot can move within its environment.The more the degree of freedom, the more flexible and adaptable the robot. A robot with high DOF can make more complex movements and perform a variety of tasks.</p>
   
 <p class="blank-line">&nbsp;</p>
 
@@ -63,14 +62,14 @@
 
 #### Types of Manipulator based on the number of Degrees of Freedom:
   - <b>Under-Actuated Manipulator</b>
-      - Spatial Manipulator with less than 6-DOF
-      - Planar Manipulator with less than 3-DOF
+      - _Spatial Manipulator_ with less than 6-DOF
+      - _Planar Manipulator_ with less than 3-DOF
   - <b>Ideal manipulator</b>
-      - Spatial Manipulator with exactly 6-DOF
-      - Planar Manipulator with exactly 3-DOF
+      - _Spatial Manipulator_ with exactly 6-DOF
+      - _Planar Manipulator_ with exactly 3-DOF
   - <b>Redundant manipulator</b>
-      - Spatial Manipulator with more than 6-DOF
-      - Planar Manipulator with more than 3-DOF
+      - _Spatial Manipulator_ with more than 6-DOF
+      - _Planar Manipulator_ with more than 3-DOF
 <br>
 
 #### Grubler's Criterion for Mobility
