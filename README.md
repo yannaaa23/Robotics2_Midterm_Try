@@ -46,20 +46,20 @@
 <p class="blank-line">&nbsp;</p>
 
 #### The Ideal Degrees of Freedom:
-  - A point in 2D: 2-DOF; in 3D space: 3-DOF
-  - A rigid body in 3D: 6-DOF
-  - Planar Manipulator: 3-DOF
-  - Spatial manipulator: 6-DOF
+  - A <b>point</b> in 2D: 2-DOF; in 3D space: 3-DOF
+  - A <b>rigid body</b> in 3D: 6-DOF
+  - <b>Planar Manipulator</b>: 3-DOF
+  - <b>Spatial manipulator</b>: 6-DOF
 <br>
 
 #### Types of Manipulator based on the number of Degrees of Freedom:
-  - Under-Actuated Manipulator
+  - <b>Under-Actuated Manipulator</b>
       - Spatial Manipulator with less than 6-DOF
       - Planar Manipulator with less than 3-DOF
-  - Ideal manipulator
+  - <b>Ideal manipulator</b>
       - Spatial Manipulator with exactly 6-DOF
       - Planar Manipulator with exactly 3-DOF
-  - Redundant manipulator
+  - <b>Redundant manipulator</b>
       - Spatial Manipulator with more than 6-DOF
       - Planar Manipulator with more than 3-DOF
 <br>
@@ -70,6 +70,21 @@
   - Formula for the Mobility of Planar Manipulator
     $$M = 3n - \sum_{i=1}^m (3-Ci)$$
 
+#### Mechanical Manipulator Anatomy
+
+|  Joint type  | DOF *f* | Constraints *c* between two planar rigid bodies | Constraints *c* between two spatial rigid bodies |
+|         ---: |     :---:      |     :---:     |     :---:    |
+|  Revolute (R)  |  1  |  2  |  5  |
+|  Prismatic (P)  |  1  |  2  |  5  |
+|  Helical (H)  |  1  |  N/A  |  5  |
+|  Cylindrical (C)  |  2  |  N/A  |  4  |
+|  Universal (U)  |  2  |  N/A  |  4  |
+|  Spherical (S)  |  3  |  N/A  |  3  |
+<br>
+
+#### Degrees of Freedom (DOF) Computation
+  $$M = 6n - \sum_{i=1}^m (6-Ci)$$
+  
 <hr> 
 <br>
 
