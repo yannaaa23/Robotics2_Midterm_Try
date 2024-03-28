@@ -1,36 +1,17 @@
-<p align="center">
-  <img src="https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/main/First%20Page/Header.png?raw=true" alt="Header Image">
-</p>
-
-<p align="center" style="font-family: Arial, sans-serif; font-size: 20px">
-  <strong>College of Engineering</strong><br>
-  <strong>Department of Electronics Engineering</strong><br><br><br>
-  <strong>MECHATRONICS ENGINEERING - 3202</strong><br>
-  Second Semester, A.Y. 2023-2024<br><br><br>
-  <strong>Midterm Project in Robotics 2</strong><br><br><br>
-  Presented to<br>
-  <strong>Engr. Mikko De Torres</strong><br>
-  Instructor<br><br><br>
-  In Partial Fulfillment<br>
-  of the Requirements for the course<br>
-  MExE 409 - Robotics 2<br><br><br>
-  By:<br>
-  Alojado, Stephen Gabriel S.<br>
-  Apostol, Jan Benedict D.<br>
-  Cardenas, Sofia Bianca J.<br>
-  Catapang, Jamil Darrius S.<br>
-  Umali, Ariane Mae D.<br>
-  </p>
-
-<p align="center">
-  <img src="https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/main/First%20Page/Footer.png?raw=true" alt="Footer Image">
-</p>
-
 <h1 align="center"> SPHERICAL MANIPULATOR </h1>
 <hr> 
 
+<h1 align="center"> Spherical Manipulator (Modern Variant) </h1> 
+<div>
+  <p align="center">
+  <img src=https://github.com/MEXECardenas/SPHERICAL_G7_Assignment_2024/blob/0b0c965065028159e971cf92570e9344e1e41f4b/Kinematic%20Diagrams%20with%20D-H%20Parametric%20Tables/Spherical%20Manipulator%20-%20Modern%20Variant.png alt=Spherical-Manipulator-Modern-Variant style="height: 400px; float: left;">
+  <img src=https://github.com/MEXECardenas/SPHERICAL_G7_Assignment_2024/blob/a9a0b089f3911adfcc915ab37b061117838ae024/Kinematic%20Diagrams%20with%20D-H%20Parametric%20Tables/Spherical%20Manipulator%20(Modern%20Variant).gif alt=Spherical-Manipulator-(Modern-Variant) style="height: 400px; float: right;">
+  </p>
+</div>
+<br>
+
 ## Table of Contents
-  - [I. Abstract](#i-.-abstract-)
+  - [I. Abstract](#i.-abstract-)
   - [II. Introduction](#-ii.-introduction-)
   - [III. Degrees of Freedom](#-iii.-degrees-of-freedom-)
   - [IV. Kinematic Diagram and D-H Frame](#-iv.-kinematic-diagram-and-d-h-frame-)
@@ -39,6 +20,7 @@
   - [VII. Inverse Kinematics](#-vii.-inverse-kinematics-)
   - [VIII. Forward and Inverse Kinematics (GUI calculator)](#-viii.-forward-and-inverse-kinematics-(gui-calculator)-)
   - [IX. References](#-ix.-references-)
+  - [X. Members](#-x.-members)
 <hr> 
 <br>
 
@@ -49,7 +31,7 @@
 
 
 ## II. Introduction
-    (description)
+    Spherical Manipulator is a stationary manipulator featuring two rotational joints, one prismatic joint, an arm attached to a robotic base, and a twisting joint. The spherical manipulator, also known as the polar manipulator, has three mutually perpendicular axes and is well known in the history of robotics. This is because the first industrial robot, Unimate, was a spherical robot developed in the 1950s. The zero z0 z1 and z2, this configuration facilitates the movement in spherical coordinates, while the spherical manipulator once held its ground, it has relinquished practice practicality in the workplace yielding to the versatility of six axes articulated manipulators.
 <hr> 
 <br>
 
@@ -120,3 +102,10 @@
 -
 -
 -
+
+## X. Members:
+  - Alojado, Stephen Gabriel S.
+  - Apostol, Jan Benedict D.
+  - Cardenas, Sofia Bianca J.
+  - Catapang, Jamil Darrius S.
+  - Umali, Ariane Mae D.<br>
