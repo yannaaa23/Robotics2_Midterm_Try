@@ -78,6 +78,16 @@
     $$M = 6n - \sum_{i=1}^m (6-Ci)$$
   - Formula for the Mobility of _Planar Manipulator_
     $$M = 3n - \sum_{i=1}^m (3-Ci)$$
+
+#### Grubler's Criterion for Mobility
+<div align="center">
+  
+|  Formula for the Mobility of _Spatial Manipulator_  | Formula for the Mobility of _Planar Manipulator_ |
+|         :---: |     :-----:      |
+| $$M = 6n - \sum_{i=1}^m (6-Ci)$$ |  $$M = 3n - \sum_{i=1}^m (3-Ci)$$ |
+
+</div>
+
 <br>
 
 #### Mechanical Manipulator Anatomy
@@ -112,8 +122,44 @@
 
 
 ## IV. Kinematic Diagram and D-H Frame
-    (description)
+
+  <p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <b><i>Kinematic Diagram</i></b> is a simplified representation of a mechanism that illustrates the motion of all the components without showing the forces or the physical dimensions that cause the motion. It is an important tool used in mechanical engineering to examine the motion of mechanisms. Typically, the diagram shows the mechanism's joints and links in schematic form. It is also a diagram that shows how the links and joints are connected together when all of the joint variables have a value of 0.
+</p>
 <br>
+
+<div align="center">
+  
+<table border="1">
+  <tr>
+    <th colspan="2">Joint Variables</th>
+  </tr>
+  <tr>
+    <td> <p align="center">Twisting or Revolute Joint</p> </td>
+    <td> <p align="center">Prismatic Linear or Orthogonal Joints</p> </td>
+  </tr>
+  <tr>
+    <td><img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/af546ee69ca1e190b12295380745505086c36d6b/First%20Page/Twisting%20or%20Revolute%20Joint.png alt=Twisting-or-Revolute-Joint style="height: 230px; float: left;"></td>
+    <td><img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/af546ee69ca1e190b12295380745505086c36d6b/First%20Page/Prismatic%20Linear%20or%20Orthoganal%20Joint.png alt=Prismatic-Linear-or-Orthogonal-Joints style="height: 200px; float: left;"></td></td>
+  </tr>
+</table>
+</div>
+<br>
+
+  <p align="justify"> 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Links</i></b> are the rigid parts of the mechanical manipulator. A link is defined as a single part that can be a resistant body or a composite of resistant bodies with inflexible connections and relative motion in relation to other machine components. Also, joints are considered links and the values are constant:</p>
+    
+  - If it is revolute or twisting, links are drawn from the center of the rotation. </p>
+  - If it is prismatic, either linear or orthogonal, links are drawn from the center of translation.
+  - If it is from base, links are drawn from the center of gravity.
+    
+<br>
+
+ <p align="justify"> 
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Joint Variables,</i></b> are the values that change when the joint moves. It is a connection between two or more links that allows for some motion, or potential motion, between them.  Joints are sometimes known as <b><i>kinematic pairs</i></b>.A joint variable has a two indicator which is the rotation of a counterclockwise arrow &#8634; and the arrow with the flat line at the tail &#8614;. We use this symbol &#8634; for the twisting and revolute joint and we label it as <b><i>theta</i></b> (&Theta;), theta is the rotation angle of the circle. While in a prismatic joint we use this symbol &#8614; and label it as <b><i>d,</i></b> <b><i>d</i></b> is the translation length. Remember that in joint variables, the numbering of joints will be based on their consecutive order.</p>
+<br>
+   
+
 <span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
 <p align="center">
   <img src=(paste-link-here) alt=(Name) width="700"/>
