@@ -49,7 +49,8 @@
 
 ## III. Degrees of Freedom
 
-  <p align="justify"> In robotics, <b><i>Degrees of Freedom</i></b> (DOF) refer to the number of independent parameters that define the configuration or motion of a robot. Essentially, it indicates how many different ways a robot can move within its environment.The more the degree of freedom, the more flexible and adaptable the robot. A robot with high DOF can make more complex movements and perform a variety of tasks.</p>
+  <p align="justify"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In robotics, <b><i>Degrees of Freedom</i></b> (DOF) refer to the number of independent parameters that define the configuration or motion of a robot. Essentially, it indicates how many different ways a robot can move within its environment.The more the degree of freedom, the more flexible and adaptable the robot. A robot with high DOF can make more complex movements and perform a variety of tasks.</p>
   
 <p class="blank-line">&nbsp;</p>
 
@@ -77,22 +78,35 @@
     $$M = 6n - \sum_{i=1}^m (6-Ci)$$
   - Formula for the Mobility of _Planar Manipulator_
     $$M = 3n - \sum_{i=1}^m (3-Ci)$$
+<br>
 
 #### Mechanical Manipulator Anatomy
 
+<div align="center">
+  
 |  Joint type  | DOF *f* | Constraints *c* between two planar rigid bodies | Constraints *c* between two spatial rigid bodies |
-|         ---: |     :---:      |     :---:     |     :---:    |
+|         ---: |     :-----:      |     :---:     |     :---:    |
 |  Revolute (R)  |  1  |  2  |  5  |
 |  Prismatic (P)  |  1  |  2  |  5  |
 |  Helical (H)  |  1  |  N/A  |  5  |
 |  Cylindrical (C)  |  2  |  N/A  |  4  |
 |  Universal (U)  |  2  |  N/A  |  4  |
 |  Spherical (S)  |  3  |  N/A  |  3  |
+
+</div>
+
 <br>
 
-#### Degrees of Freedom (DOF) Computation
-  $$M = 6n - \sum_{i=1}^m (6-Ci)$$
+#### Degrees of Freedom (DOF) Computation:
+
+<div align="center">
   
+|  RRP Spherical Manipulator  | Solution |
+|         :---: |     :-----:      |
+| <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/47e17d1beba12200080123f1b98170126aadcb39/First%20Page/DOF%20Fig.png alt=DOF-Fig style="height: 200px; float: left;"> |  $$M = 6n - \sum_{i=1}^m (6-Ci)$$  $$M = 6(3) - [(6-1) + (6-1) + (6-1)]$$  $$M = 18 - (5 + 5 + 5)$$  $$M = 18 - 15$$  $$M = 3$$  <p>&#8756; This is an Under-Actuated Spatial Manipulator with 3-DOF.</p> |
+
+</div>
+
 <hr> 
 <br>
 
@@ -168,3 +182,5 @@
   - Cardenas, Sofia Bianca J.
   - Catapang, Jamil Darrius S.
   - Umali, Ariane Mae D.<br>
+
+
