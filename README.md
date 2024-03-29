@@ -78,6 +78,7 @@
     $$M = 6n - \sum_{i=1}^m (6-Ci)$$
   - Formula for the Mobility of _Planar Manipulator_
     $$M = 3n - \sum_{i=1}^m (3-Ci)$$
+<br>
 
 #### Grubler's Criterion for Mobility
 <div align="center">
@@ -106,6 +107,7 @@
 </div>
 
 <br>
+
 
 #### Degrees of Freedom (DOF) Computation:
 
@@ -168,9 +170,17 @@
 <br>
 
 
-## V. D-H Parametric Table
-    (description)
+ <p align="justify"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>D-H Notation</i></b> was introduced by Jacques Denavit and Richard Hartenberg in 1955 in order to standardize the coordinate frames for spatial linkages. D-H notation is used to solve the forward kinematics of a mechanical manipulator. </p>
 <br>
+
+
+
+## V. D-H Parametric Table
+
+<br>
+
+
 <span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
 <p align="center">
   <img src=(paste-link-here) alt=(Name) width="700"/>
