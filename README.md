@@ -27,6 +27,9 @@
   <img src=https://github.com/MEXECardenas/SPHERICAL_G7_Assignment_2024/blob/0b0c965065028159e971cf92570e9344e1e41f4b/Kinematic%20Diagrams%20with%20D-H%20Parametric%20Tables/Spherical%20Manipulator%20-%20Modern%20Variant.png alt=Spherical-Manipulator-Modern-Variant style="height: 300px; float: left;">
   <img src=https://github.com/MEXECardenas/SPHERICAL_G7_Assignment_2024/blob/a9a0b089f3911adfcc915ab37b061117838ae024/Kinematic%20Diagrams%20with%20D-H%20Parametric%20Tables/Spherical%20Manipulator%20(Modern%20Variant).gif alt=Spherical-Manipulator-(Modern-Variant) style="height: 300px; float: right;">
   </p>
+
+  <p align="center"> Figure 1. RRP Spherical Manipulator </p>
+  
 </div>
 <br>
 
@@ -123,7 +126,20 @@
 <br>
 
 
+<p align="center"> <b>Video Tutorial of Degrees of Freedom</b> </p>
+  <p align="center">
+  <img src=link alt=Video-Tutorial-Degrees-of-Freedom style="height: 300px; float: left;">
+<br>
+<br>
+
+
+
 ## IV. Kinematic Diagram and D-H Frame
+  <p align="center">
+  <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/6b1f57110fecfee109d07f42817c1e87ddae8e89/First%20Page/Kinematic%20Diagram.png alt=Spherical-Manipulator-Kinematic-Diagram style="height: 300px;">
+  <p align="center"> Figure 2. Kinematic Diagram of a Spherical Manipulator </p>
+  </div>
+<br>
 
   <p align="justify"> 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <b><i>Kinematic Diagram</i></b> is a simplified representation of a mechanism that illustrates the motion of all the components without showing the forces or the physical dimensions that cause the motion. It is an important tool used in mechanical engineering to examine the motion of mechanisms. Typically, the diagram shows the mechanism's joints and links in schematic form. It is also a diagram that shows how the links and joints are connected together when all of the joint variables have a value of 0.
@@ -158,57 +174,188 @@
 <br>
 
  <p align="justify"> 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Joint Variables,</i></b> are the values that change when the joint moves. It is a connection between two or more links that allows for some motion, or potential motion, between them.  Joints are sometimes known as <b><i>kinematic pairs</i></b>.A joint variable has a two indicator which is the rotation of a counterclockwise arrow &#8634; and the arrow with the flat line at the tail &#8614;. We use this symbol &#8634; for the twisting and revolute joint and we label it as <b><i>theta</i></b> (&Theta;), theta is the rotation angle of the circle. While in a prismatic joint we use this symbol &#8614; and label it as <b><i>d,</i></b> <b><i>d</i></b> is the translation length. Remember that in joint variables, the numbering of joints will be based on their consecutive order.</p>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>Joint Variables,</i></b> are the values that change when the joint moves. It is a connection between two or more links that allows for some motion, or potential motion, between them.  Joints are sometimes known as <b><i>kinematic pairs</i></b>. A joint variable has a two indicator which is the rotation of a counterclockwise arrow &#8634; and the arrow with the flat line at the tail &#8614;. We use this symbol &#8634; for the twisting and revolute joint and we label it as <b><i>theta</i></b> (&Theta;), theta is the rotation angle of the circle. While in a prismatic joint we use this symbol &#8614; and label it as <b><i>d,</i></b> <b><i>d</i></b> is the translation length. Remember that in joint variables, the numbering of joints will be based on their consecutive order.</p>
 <br>
-   
 
-<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
-<p align="center">
-  <img src=(paste-link-here) alt=(Name) width="700"/>
-</p>
-<hr> 
+
+
+### D-H Frame
+
+  <p align="center">
+  <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/6b1f57110fecfee109d07f42817c1e87ddae8e89/First%20Page/Kinematic%20Diagram%20with%20D-H%20Frame.png alt=Spherical-Manipulator-Kinematic-Diagram-with-D-H-Frame style="height: 300px;"></p>
+<p align="center"> Figure 3. Kinematic Diagram and D-H Frame of a Spherical Manipulator </p>
+</div>
 <br>
 
 
  <p align="justify"> 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>D-H Notation</i></b> was introduced by Jacques Denavit and Richard Hartenberg in 1955 in order to standardize the coordinate frames for spatial linkages. D-H notation is used to solve the forward kinematics of a mechanical manipulator. </p>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><i>D-H Notation</i></b> was introduced by <b>Jacques Denavit</b> and <b>Richard Hartenberg</b> in <b>1955</b> in order to standardize the coordinate frames for spatial linkages. D-H notation is used to solve the forward kinematics of a mechanical manipulator. </p>
+<br>
+
+
+ <p align="justify"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The <b><i>Frames</i></b> in a Mechanical Manipulator are used to determine where they are and where they need to go. It also shows the movement of our mechanical manipulator. The frames are positioned at each part of the mechanical manipulator, including the base, joints, and end effector.  </p>
+<br>
+
+#### Three Types of Frames used in Mechanical Manipulator:
+  - Base (World) Frame
+  - User Frame
+  - Tool Frame
+<br>
+
+
+ <p align="justify"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b><i>D-H Frame Rules</i></b> is the rules used in assigning frames in a kinematic diagram.  </p>
+<br>
+
+  - **Rule 1**: The z axis must be the axis of rotation for a revolute/twisting joint, or the direction of translation for a prismatic joint.
+  - **Rule 2**: The x axis must be perpendicular both to its own Z axis, and the Z axis of the frame before it. \
+  - **Rule 3**: Each axis must intersect the z axis of the frame before it. The rules for complying rule 3:
+      - Rotate the axis until it hits the other.
+      - Translate the axis until it hits the other.
+  - **Rule 4**: All frames must follow the right hand rule. 
+<br>
+
+
+<p align="center"> <b>Video Tutorial of Kinematic Diagram and D-H Frame</b> </p>
+  <p align="center">
+  <img src=link alt=Video- Tutorial-of-Kinematic-Diagram-and-D-H-Frame style="height: 300px; float: left;">
 <br>
 
 
 
 ## V. D-H Parametric Table
 
+#### Steps in Denavit-Hartenberg Notation
+  1.  Assign the frames according to the 4 D-H Frame Rules.
+  2.  Construct and fill out the D-H Parametric Table.
+  3.  Plug the table into the Homogeneous Transformation Matrix form.
+  4.  Multiply the matrices together.
 <br>
 
 
-<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
-<p align="center">
-  <img src=(paste-link-here) alt=(Name) width="700"/>
-</p>
-<hr> 
+<p align="center"> <b>Example of D-H Parametric Table</b> </p>
+
+<div align="center">
+  
+|  n  | &Theta; | &alpha; | r | d |
+|     :---:     |     :---:     |     :---:     |     :---:    |     :---:     
+|  1  |    |    |    |
+|  2  |    |    |    |
+|  3  |    |    |    |
+|  4  |    |    |    |
+
+</div>
 <br>
+
+
+ <p align="justify"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The <b><i>Four Parameters</i></b> in the D-H Parametric are  &Theta;, &alpha; r and d. The &Theta; and the &alpha are the rotation or orientation parameters and their units are in degrees or radian. While d and r are the position or translation parameters and their units are in units of length.
+  </p>
+<br>
+
+
+<div align="center">
+  
+| &Theta; | &alpha; | r | d |
+|     :---:     |     :---:     |     :---:    |     :---:     
+|  <b>"&Theta;"</b> is the rotation around z <sub>n-1</sub> that is required to get x <sub>n-1</sub> to match x <sub>n</sub>, with the joint variable theta if the joint is a revolute or twisting joint.  |   <b>"&alpha;"</b> is the rotation around x <sub>n</sub> that is required to match z <sub>n-1</sub> to z <sub>n</sub>.  |  <b>"d"</b> is the distance from the origin of n-1 and n frames along the z <sub>n-1</sub> direction with the joint variable if the joint is prismatic.  |  <b>"r"</b> is the distance from the origin of n-1 and n frames along the x <sub>n</sub> direction.  |
+
+</div>
+<br>
+
+
+<p align="center"> <b>D-H Parametric Table of Spherical Manipulator</b> </p>
+  <p align="center">
+  <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/f7fb56960b0356ba05be5484fbbf70c3b3404437/First%20Page/D-H%20parametric%20Table.png alt=D-H-Parametric-table-of-Speherical-Manipulator style="height: 300px;"></p>
+</div>
+<br>
+
+
+<p align="center"> <b>D-H Prametric Table Tutorial Video</b> </p>
+  <p align="center">
+  <img src=link alt=D-H-Parametic-Table-Tutorial-Video style="height: 300px; float: left;">
+<br>
+
+
+
 
 
 ## VI. Homogeneous Transformation Matrix
-    (description)
+
+ <p align="justify"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b><i>Homogeneous transformation Matrix</i></b> includes both the rotation matrix and the displacement vector in the same matrix. Furthermore, homogeneous transformation matrices are described as matrices that specify an object's position and orientation. 3x3 rotation matrices can be combined using multiplication. Position vectors cannot be added or multiplied. And to combine position vectors, we shall use the homogeneous transformation matrix, denoted as H or T . The homogeneous transformation matrix contains a superscript and a subscript that indicate the reference and projected frames. It consists of a 3x3 rotation matrix paired with our 3x1 position vector, resulting in a 3x4 matrix. A square matrix is the equal sum of the rows and columns. To make this equal and to make it 4x4 matrix, an augmentation column (0 0 0 1) is added. 
+  </p>
 <br>
-<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
-<p align="center">
-  <img src=(paste-link-here) alt=(Name) width="700"/>
-</p>
-<hr> 
+
+<p align="center"> <b>&#128512; HINDI KO NA ALAM ANG KASUNOD &#128512; </b> </p>
+
+
+<p align="center"> <b>Homogeneous Transformation Matrix of a Spherical Manipulator</b> </p>
+  <p align="center">
+  <img src=link alt=Homogeneous-Transformation-Matrix-of-a-Spherical-Manipulator style="height: 300px;"></p>
+</div>
 <br>
+
+
+<p align="center"> <b>Homogeneous Transformation Matrix of a Spherical Manipulator Tutorial Video</b> </p>
+  <p align="center">
+  <img src=link alt=Homogeneous-Transformation-Matrix-of-a-Spherical-Manipulator-Tutorial-Video style="height: 300px; float: left;">
+<br>
+
 
 
 ## VII. Inverse Kinematics
-    (description)
+
+ <p align="justify"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b><i>Kinematics</i></b> is the study of how bodies move in a robotic mechanism, regardless of the forces or torques that cause the motion. It also studies the relationship between a robot's joint coordinates and its spatial organization, which is a fundamental and classical topic in robotics.
+  </p>
 <br>
-<span style="font-family: Arial, sans-serif; font-size: 18px;">Computation:</span>
-<p align="center">
-  <img src=(paste-link-here) alt=(Name) width="700"/>
-</p>
-<hr> 
+
+<div align="center">
+  
+|  Forward Kinematics  | Inverse Kinematics |
+|   ---  |   ---  |
+|  - The given inputs are the joint variables and the output is the position vector.  |  - The given is the position vector while the output is the joint variables.  |
+|  - For identifying the limits of your joint.  |  - For mimicking the motion of the human arm.  |
+|  - For obtaining the trajectory solution.  |  - For detailed positioning of the end-effector.  | 
+|  - Easier to solve.  |  - Difficult to solve.  |
+
+</div>
 <br>
+
+
+ <p align="justify"> 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <b><i>Forward kinematics</i></b> is the geometric problem of finding the position vector and orientation of the end effector using joint variables. It is also a technique for calculating the frames of a robot's links using a configuration and the robot's kinematic structure as input. While <b><i>Inverse kinematics</i></b> is utilized to move the mechanical manipulator. Inverse Kinematics is essentially the opposite operation: it calculates configurations to reach the desired workspace coordinate. This process is required for many robotics activities, including moving a tool along a specified path, manipulating items, and viewing situations from the correct perspective.
+  </p>
+<br>
+
+
+<p align="center"> <b>Inverse Kinematics of a Spherical Manipulator</b> </p>
+
+<div align="center">
+  
+|  Top View  | Front View |
+|   ---  |   ---  |
+|  <p align="center"> <img src=link alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 300px;"></p>  |  <p align="center"> <img src=link alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 300px;"></p>  |
+
+</div>
+<br>
+
+
+#### Summary of the Step-by-Step Process on How to Find the Inverse Kinematics of a Spherical Manipulator
+  - On the <b><i>Top View</b></i>:
+    - To solve for &Theta;<sub>1</sub>, we use the inverse tangent because Y<sup>0</sup><sub>3</sub> and X<sup>0</sup><sub>3</sub> is given.
+    - We can’t use a<sub>2</sub> + a<sub>3</sub> + d<sub>3</sub> as hypotenuse that’s why we name our hypotenuse as r<sub>1</sub>.
+  - On the <b><i>Front View</b></i>:
+      - r<sub>1</sub> is the length of the link of the prismatic joint and the end-effector that change if &Theta;<sub>2</sub> changes its orientation.
+      - Then for the new side, which is the r<sub>2</sub> to get the value of Z<sup>0</sup><sub>3</sub>, so the r<sub>2</sub> is equal to Z<sup>0</sup><sub>3</sub> - a<sub>1</sub>.
+      - To solve for &Theta;<sub>2</sub>, we can use again the inverse tangent formula.
+      - Then to solve for d<sub>3</sub>, we will use the Pythagorean Theorem.
+<br>
+
+
+
 
 
 ## VIII. Forward and Inverse Kinematics (GUI calculator)
