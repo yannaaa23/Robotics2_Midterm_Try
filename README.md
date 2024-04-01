@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe width="420" height="345" src="[https://youtu.be/RNcCr9nHQzM?si=9qxO2WTTrf7gDFqb]">
+</iframe>
+
+</body>
+</html>
+
+
 <h1 align="center"> Robotics 2 - Forward and Inverse Kinematics of Spherical Manipulator </h1>
 <br>
 
