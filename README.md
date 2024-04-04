@@ -414,13 +414,34 @@ $$
 <br>
 
 
-<p align="center"> <b>Inverse Kinematics of a Spherical Manipulator</b> </p>
+### Inverse Kinematics of a Spherical Manipulator using Graphical Method
+___
+
+<p align="center">
+  <img src="https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/d1ef20c165eca1aaeace5ca92892b76bb5c5f78a/First%20Page/Kinematic%20Diagram%20with%20D-H%20Frame.png" style="height: 300px;"></p>
+</div>
+<p align="center"> Kinematic Diagram with D-H Frame of a Spherical Manipulator </p>
+<br>
+
+
+<p align="center"> <b>Inverse Kinematics using Graphical Method</b>b> </p>
 
 <div align="center">
   
-|  Top View  | Front View |
+|  Top View  | Process |
 |   ---  |   ---  |
-|  <p align="center"> <img src=link alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 300px;"></p>  |  <p align="center"> <img src=link alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 300px;"></p>  |
+|  <p align="center"> <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/09f5a206f0c4c7439b1ef3df475fadf370f38396/First%20Page/inverse%20top%201.png alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 250px; width: 1000px"></p>  |  To solve for $\theta_{1}$, use sohcahtoa;<br>  &nbsp;&nbsp;&nbsp;&nbsp; $tan \theta_{1}= adjacent/hypotenuse$<br>  &nbsp;&nbsp;&nbsp;&nbsp; $opposite = Y_{3}^{0}$ <br>  &nbsp;&nbsp;&nbsp;&nbsp; $adjacent = X_{3}^{0}$  |
+|  <p align="center"> <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/09f5a206f0c4c7439b1ef3df475fadf370f38396/First%20Page/inverse%20top%202.png alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 250px; width: 1000px"></p>  |  &nbsp;&nbsp;&nbsp;&nbsp;However, the hypotenuse is changing its length due to $d_{3}$ since it is a prismatic joint as well as because of the joint 2 being a revolute joint and so, it can change its orientation hence, we will give a new name for our hypotenuse, in this case, $r_{1}$. So from the equation 1, we can now derive the formula for $r_{1}$.   |
+
+</div>
+<br>
+
+
+<div align="center">
+  
+|  Front View  | Process |
+|   ---  |   ---  |
+|  <p align="center"> <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/09f5a206f0c4c7439b1ef3df475fadf370f38396/First%20Page/inverse%20front%201.png alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 300px; width: 1250px"></p> <br> <p align="center"> <img src=https://github.com/yannaaa23/Robotics2_Midterm_Try/blob/09f5a206f0c4c7439b1ef3df475fadf370f38396/First%20Page/inverse%20front%202.png alt=Inverse-Kinematics-of-a-Spherical-Manipulator style="height: 300px; width: 1250px"></p>  |  &nbsp;&nbsp;&nbsp;&nbsp;And now in terms of the front view of the spherical manipulator, the $r_{1}$ will now be the adjacent length or side of $\theta_{2}$. After placing the $r_{1}$, it can be noticed that we now have a right triangle with the $a_{2}+a_{3}+d_{3}$ being the hypotenuse. However we can’t use the $Z$ as the opposite side of our triangle thus, we will make a another line that would represent the opposite length of  $\theta_{2}$ and we will call it as $r_{2}$. <br> Based on the illustration above, we can derive that,<br> &nbsp;&nbsp;&nbsp;&nbsp;- $Z = a_{1}$ + $r_{2}$ therefore,<br> &nbsp;&nbsp;&nbsp;&nbsp; - $r_{2} =  Z - a_{1}$  eq. 3 <br><br> And so, we can now derive for the formula of  $\theta_{2}$ using again the sohcahtoa;<br> &nbsp;&nbsp;&nbsp;&nbsp;- $tan\theta_{2} = opposite/adjacent$ <br> &nbsp;&nbsp;&nbsp;&nbsp;- $opposite = r_{2}$ <br> &nbsp;&nbsp;&nbsp;&nbsp;- $adjacent = r_{1}$ <br> &nbsp;&nbsp;&nbsp;&nbsp;- $\theta_{2}$ $=$ $\theta^{-1} (r_{2} / r_{1})$   eq. 4 <br> <br> Finally, to find the joint variable d_{3}, the Pythagorean theorem is used;<br> &nbsp;&nbsp;&nbsp;&nbsp;- $c_{2} = a_{2} + b_{2}$ <br> &nbsp;&nbsp;&nbsp;&nbsp;- $( a_{2}+a_{3}+d_{3})^{2} ) = r_{1}^{2} + r_{2}^{2}$ <br> &nbsp;&nbsp;&nbsp;&nbsp;- $a_{2}+a_{3}+d_{3})^{2} = r_{1}^{2} + r_{2}^{2}$ <br> &nbsp;&nbsp;&nbsp;&nbsp;- $d_{3} = r_{1}^{2} + r_{2}^{2} - a^{2} - a^{3}$   eq. 5  |
 
 </div>
 <br>
@@ -428,15 +449,14 @@ $$
 
 #### Summary of the Step-by-Step Process on How to Find the Inverse Kinematics of a Spherical Manipulator
   - On the <b><i>Top View</b></i>:
-    - To solve for &Theta;<sub>1</sub>, we use the inverse tangent because Y<sup>0</sup><sub>3</sub> and X<sup>0</sup><sub>3</sub> is given.
-    - We can’t use a<sub>2</sub> + a<sub>3</sub> + d<sub>3</sub> as hypotenuse that’s why we name our hypotenuse as r<sub>1</sub>.
+    - To solve for $\theta$<sub>1</sub>, we use the inverse tangent because $Y_{3}^{0}$ and $X_{3}^{0}$ is given.
+    - We can’t use $a_{2} + a_{3} + d_{3}$ as hypotenuse that’s why we name our hypotenuse as $r_{1}$.
   - On the <b><i>Front View</b></i>:
-      - r<sub>1</sub> is the length of the link of the prismatic joint and the end-effector that change if &Theta;<sub>2</sub> changes its orientation.
-      - Then for the new side, which is the r<sub>2</sub> to get the value of Z<sup>0</sup><sub>3</sub>, so the r<sub>2</sub> is equal to Z<sup>0</sup><sub>3</sub> - a<sub>1</sub>.
-      - To solve for &Theta;<sub>2</sub>, we can use again the inverse tangent formula.
-      - Then to solve for d<sub>3</sub>, we will use the Pythagorean Theorem.
+      - $r_{1}$ is the length of the link of the prismatic joint and the end-effector that change if $\theta_{2}$ changes its orientation.
+      - Then for the new side, which is the $r_{2}$ to get the value of $Z_{3}^{0}$, so the $r_{2}$ is equal to $Z_{3}^{0} - a_{1}$.
+      - To solve for $\theta_{2}$, we can use again the inverse tangent formula.
+      - Then to solve for $d_{3}$, we will use the Pythagorean Theorem.
 <br>
-
 
 
 
